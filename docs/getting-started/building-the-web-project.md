@@ -1,4 +1,4 @@
-# Building the Initial Repository
+# Building the Initial Web Project
 
 Wether you create the repo locally first and post to Github or Azure is up to your personal preference, however I would recommend creating the repo in which ever cloud repo you are using (in the case of this project, it's Github).
 
@@ -41,6 +41,6 @@ Prettier can be configured so that each time you save your files, the formatting
 
 ## First Commit
 
-Once you have your initial web project completed, you are ready for your first commit! Be warned, the only time it is ever acceptable to push to main is when you are setting up the project. When following proper CICD conventions, you normally have short lived feature branches that get reviewed and pulled into main. You should enforce rules that prevent anyone from committing directly to main and only allow changes to main through pull requests that are reviewed by a peer or collegue. This should be one of the first things you do either after your initial project setup or before even cloning the repo to your machine.
+Once you have your initial web project completed, you are ready for your first commit! Be warned, the only time it is ever acceptable to push to main is when you are setting up the project. When following proper CICD conventions, you normally have short lived feature branches that get reviewed and pulled into main. You should enforce rules that prevent anyone from committing directly to main and only allow changes to main through pull requests that are reviewed by 1-2 peers or collegues including someone with more experiece than you if possible. This should be one of the first things you do either after your initial project setup or before even cloning the repo to your machine.
 
-This way, if a bug or breaking change is introduced you can walk back your latest PR and search for bugs wihtout leaving your application completely useless or broken.
+This way, if a bug or breaking change is introduced you can walk back your latest PR and search for bugs without leaving your application completely useless or broken. This also allows you to learn faster by having any mistakes or missing pieces pointed out and corrected directly or by giving you an opportunity to just bounce ideas off of others. For more information see [here](../core-principles/cicd-principles.md).
