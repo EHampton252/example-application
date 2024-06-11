@@ -6,6 +6,7 @@ namespace SchoolSystem.Api.Data.Configuration
 {
     internal class GradeConfiguration : IEntityTypeConfiguration<Grade>
     {
+        // Configure the Grade entity to be mapped to the Grade table in the database
         public void Configure(EntityTypeBuilder<Grade> modelBuilder)
         {
             modelBuilder.ToTable("Grade");

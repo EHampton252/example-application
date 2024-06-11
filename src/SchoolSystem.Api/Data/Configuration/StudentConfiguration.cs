@@ -6,6 +6,7 @@ namespace SchoolSystem.Api.Data.Configuration
 {
     public class StudentConfiguration : IEntityTypeConfiguration<Student>
     {
+        // Configure the Student entity to be mapped to the Student table in the database
         public void Configure(EntityTypeBuilder<Student> modelBuilder)
         {
             modelBuilder.ToTable("Student");
