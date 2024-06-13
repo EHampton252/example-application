@@ -39,6 +39,8 @@ Prettier can be configured so that each time you save your files, the formatting
 
 1. Then replace its contents with your settings.
 
+If you are unsure which settings to put in either file or if you do not have your own, you can copy from this project!
+
 ## First Commit
 
 Once you have your initial web project completed, you are ready for your first commit! Be warned, the only time it is ever acceptable to push to main is when you are setting up the project. When following proper CICD conventions, you normally have short lived feature branches that get reviewed and pulled into main. You should enforce rules that prevent anyone from committing directly to main and only allow changes to main through pull requests that are reviewed by 1-2 peers or collegues including someone with more experiece than you if possible. This should be one of the first things you do either after your initial project setup or before even cloning the repo to your machine.

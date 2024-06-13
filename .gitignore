@@ -23,3 +23,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# AppSettings
+/src/SchoolSystem.Api/appsettings.Development.json
+/src/SchoolSystem.Api/appsettings.Development.json
+/src/SchoolSystem.Web/.vite
