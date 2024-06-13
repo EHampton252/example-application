@@ -53,7 +53,7 @@ project.fragment.lock.json
 artifacts/
 
 # Visual Studio 2017 auto generated files
-Generated\ Files/
+Generated/ Files/
 
 # Files built by visual studio
 *_i.c
@@ -92,7 +92,7 @@ ClientBin/
 *.binlog
 *.bin
 
-C:\Repos\example-application\src\SchoolSystem.Api\obj
+./src/SchoolSystem.Api/obj
 
 .azure/config.json
 .azure/dev/.env
