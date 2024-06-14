@@ -6,9 +6,7 @@ When creating your first application is often helpful to start first with your w
 
 ## Building the Web App
 
-1. To use Vite to build your project, simply run:
-
-   `yarn create vite`
+1. To use Vite to build your project, simply run: `yarn create vite`
 
    If you do not have yarn installed, you can go [here](https://yarnpkg.com/getting-started/install) to install it.
 
@@ -25,17 +23,24 @@ Viola! Now you have a web project
 
 ## Setup Prettier and ESLint
 
-ES Lint and Prettier are tools meant to help developers keep their code clean and readable while following certain formatting rules. Gone are the days of having to manually check that every file has the exact number of indents and spaces required by your company or ensuring semicolons after every line.
+ES Lint and Prettier are tools meant to help developers keep their code clean, readable, and effective while following certain formatting rules. Gone are the days of having to manually check that every file has the exact number of indents and spaces required by your company or ensuring semicolons after every line.
 
-Prettier can be configured so that each time you save your files, the formatting rules will automatically be applied, changing you code format as necessary. ES Lint is an incredibly useful tool in ensureing you are following proper formatting and syntax rules required by either your own standards or those of a client or company.
+Prettier can be configured so that each time you save your files, the formatting rules will automatically be applied, changing you code format as necessary. ES Lint is an incredibly useful tool in ensureing you are following proper conventions required by either your own standards or those of a client or company. Often times linters also enforce
 
-1. To install prettier simply run:
+1. To install prettier simply run: `yarn add prettier --dev`
+
    <br>
-   `yarn add prettier --dev`
+   You can also install the extension which might be helpful:
+
+   ![alt text](image-2.png)
+
+   ![alt text](image-1.png)
 
 1. Then create a .prettierrc file with your prettier settings.
 
-1. For ESLint install the VS Code extension and change the name of the `.eslintrc.cjs` file to `.eslintrc.json`.
+1. For ESLint install the VS Code extension (below) and change the name of the `.eslintrc.cjs` file to `.eslintrc.json`.
+
+   ![alt text](image.png)
 
 1. Then replace its contents with your settings.
 
@@ -43,6 +48,6 @@ If you are unsure which settings to put in either file or if you do not have you
 
 ## First Commit
 
-Once you have your initial web project completed, you are ready for your first commit! Be warned, the only time it is ever acceptable to push to main is when you are setting up the project. When following proper CICD conventions, you normally have short lived feature branches that get reviewed and pulled into main. You should enforce rules that prevent anyone from committing directly to main and only allow changes to main through pull requests that are reviewed by 1-2 peers or collegues including someone with more experiece than you if possible. This should be one of the first things you do either after your initial project setup or before even cloning the repo to your machine.
+Once you have your initial web project completed, you are ready for your first commit! Be warned, the only time it is ever acceptable to push to main is when you are setting up the project. When following proper [CICD](../core-principles/cicd-principles.md) conventions, you normally have short lived feature branches that get reviewed and pulled into main. You should enforce rules that prevent anyone from committing directly to main and only allow changes to main through pull requests that are reviewed by 1-2 peers or collegues including someone with more experiece than you if possible. This should be one of the first things you do either after your initial project setup or before even cloning the repo to your machine.
 
-This way, if a bug or breaking change is introduced you can walk back your latest PR and search for bugs without leaving your application completely useless or broken. This also allows you to learn faster by having any mistakes or missing pieces pointed out and corrected directly or by giving you an opportunity to just bounce ideas off of others. For more information see [here](../core-principles/cicd-principles.md).
+This way, if a bug or breaking change is introduced you can walk back your latest PR and search for bugs without leaving your application completely useless or broken. This also allows you to learn faster by having any mistakes or missing pieces pointed out and corrected directly or by giving you an opportunity to just bounce ideas off of others. For more information see [here](../core-principles/trunk-based-development.md).

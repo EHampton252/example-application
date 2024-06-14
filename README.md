@@ -16,3 +16,5 @@ To follow this, you will need:
 - [Yarn](https://yarnpkg.com/getting-started/install)
 
 **NOTE**: If you have a Visual Studio Pro License (as in through a work account), use that. Otherwise, use Visual Studio Community
+
+### To begin, start [here](docs/index.md)!
